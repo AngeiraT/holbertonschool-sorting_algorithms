@@ -71,7 +71,7 @@ O notation is a way to analyze the efficiency of a program or function.
 
 ## General:
 * Editor: *nvim*
-* All files compiled on **Ubuntu 14.04 LTS**.
+* All files compiled on **Ubuntu 20.04 LTS**.
 * All files end in *newline*.
 * Code uses **Betty** style linter:
   * [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl)
