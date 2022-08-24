@@ -1,5 +1,7 @@
 # Sorting Algorithms & Big 0
+> An introduction on how Big O notation helps us differentiate between the time complexity of algorithms and determine which can be faster than others depending on input size.
 
+![alt text](https://raw.githubusercontent.com/donbeave/interview/master/big-o-chart.png)
 
 A **sorting algorithm** is one that takes an unordered list and returns it ordered. ... **Big-O**, along with **Big-Omega** and **Big-Theta**, describe the performance of an algorithm by estimating the number of operations required as the size of the input approaches infinity.
 
@@ -28,9 +30,6 @@ The most common algorithmic complexity functions in which the only factor they d
 `O (n!)        Factorial order`
 
 `Or (1): Constant complexity.`
-
-
-![alt text](https://raw.githubusercontent.com/donbeave/interview/master/big-o-chart.png)
 
 **O (log n):** Logarithmic complexity. This usually appears in certain algorithms with iteration or non-structural recursion, for example binary search.
 
