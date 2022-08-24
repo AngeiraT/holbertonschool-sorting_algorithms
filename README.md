@@ -82,7 +82,9 @@ $betty <filename>
 
 * No more than **5** functions per file.
 * All codes tested with their corresponding ***main.c*** in the **mains/** directory.
-* All codes and functions compiled using:
+
+## Compilation:
+
 ```bash
 $gcc -Wall -Werror -Wextra -pedantic <filename>.c -o
 ```
