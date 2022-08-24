@@ -69,6 +69,13 @@ The different types of sorting algorithms:
 As mentioned before Big 
 O notation is a way to analyze the efficiency of a program or function.
 
+## Learning Objectives
+
+* At least four different sorting algorithms
+* What is the Big O notation, and how to evaluate the time complexity of an algorithm
+* How to select the best sorting algorithm for a given input
+* What is a stable sorting algorithm
+
 ## General:
 * Editor: *nvim*
 * All files compiled on **Ubuntu 20.04 LTS**.
@@ -94,9 +101,16 @@ $gcc -Wall -Werror -Wextra -pedantic <filename>.c -o <out_name>
 ```
 * All function prototypes are present in the ***sort.h*** header file.
 
-## Contribution:
+## Author:
 
 - Angeira Quiles
+
+## Resources:
+
+* Sorting algorithm
+* Big O notation
+* Sorting algorithms animations
+* 15 sorting algorithms in 6 minutes (WARNING: The following video can trigger seizure/epilepsy. It is not required for the project, as it is only a funny visualization of different sorting algorithms)
 
 ## Holberton School:
 [Holberton School Puerto Rico](https://www.holbertonschool.com/pr/en)
