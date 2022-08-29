@@ -1,10 +1,25 @@
-// function to swap the the position of two elements
-void _swap(int *a, int *b) {
+#include "sort.h"
+/**
+ * _swap - swap between 2 pointers of int
+ *
+ * @a: first int pointer
+ * @b: second int pointer
+ * Return: void
+ */
+
+void _swap(int *a, int *b) 
+{
   int temp = *a;
   *a = *b;
   *b = temp;
 }
-
+/**
+ * selection_sort - sort array of size with selection sorting
+ * @array: int array to sort
+ * @size: how big is the array?
+ *
+ *
+ */
 void selection_sort(int *array, int size) 
 {
   for (int step = 0; step < size - 1; step++) 
