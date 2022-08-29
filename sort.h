@@ -35,8 +35,6 @@ void quick_sort(int *array, size_t size);
 void swap(int *a, int *b);
 int part(int *array, int a, int b, size_t size);
 void qsorting(int *array, int a, int b, size_t size);
-
-
-
+listint_t *swap_node(listint_t *node, listint_t **list);
 
 #endif
