@@ -20,7 +20,7 @@ void _swap(int *a, int *b)
  *
  *
  */
-void selection_sort(int *array, int size) 
+void selection_sort(int *array, size_t size) 
 {
   for (int step = 0; step < size - 1; step++) 
   {
