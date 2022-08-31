@@ -26,8 +26,8 @@ void selection_sort(int *array, size_t size)
 
 	if (array == NULL || size < 2)
 		return;
-
-	for (a = 0; a < size - 1; a++) /*while through the array to find the small number */
+	/*while through the array to find the small number */
+	for (a = 0; a < size - 1; a++)
 	{
 		min_idx = a;
 		for (b = a + 1; b < size; b++)
