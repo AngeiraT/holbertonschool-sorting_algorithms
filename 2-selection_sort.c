@@ -7,11 +7,11 @@
  * Return: void
  */
 
-void _swap(int *a, int *b) 
+void _swap(int *a, int *b)
 {
-  int temp = *a;
-  *a = *b;
-  *b = temp;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
 /**
  * selection_sort - sort array of size with selection sorting
@@ -20,14 +20,14 @@ void _swap(int *a, int *b)
  *
  *
  */
-void selection_sort(int *array, size_t size) 
+void selection_sort(int *array, size_t size)
 {
-    unsigned int a, b, min_idx;
+	unsigned int a, b, min_idx;
 
 	if (array == NULL || size < 2)
 		return;
 
-	for (a = 0; a < size - 1; a++) /* step1: while through the array to find the small number */
+	for (a = 0; a < size - 1; a++) /*while through the array to find the small number */
 	{
 		min_idx = a;
 		for (b = a + 1; b < size; b++)
