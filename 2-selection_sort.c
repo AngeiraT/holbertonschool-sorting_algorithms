@@ -22,19 +22,24 @@ void _swap(int *a, int *b)
  */
 void selection_sort(int *array, size_t size) 
 {
-  for (int step = 0; step < size - 1; step++) 
-  {
-    int min_idx = step;
-    for (int i = step + 1; i < size; i++) 
-    {
+    unsigned int a, b, min_idx;
 
-      // To sort in descending order, change > to < in this line.
-      // Select the minimum element in each loop.
-      if (array[i] < array[min_idx])
-        min_idx = i;
-    }
+	if (array == NULL || size < 2)
+		return;
 
-    // put min at the correct position
-    _swap(&array[min_idx], &array[step]);
-  }
+	for (a = 0; a < size - 1; a++) /* step1: while through the array to find the small number */
+	{
+		min_idx = a;
+		for (b = a + 1; b < size; b++)
+		{
+			if (array[b] < array[min_idx])
+				min_idx = b;
+		}
+		if (min_idx != a) /* swap */
+		{
+			_swap(&array[min_idx], &array[a]);
+			print_array(array, size);
+		}
+	}
 }
+
